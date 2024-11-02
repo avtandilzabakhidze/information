@@ -3,3 +3,11 @@
     font-family: sans-serif;
     padding: 4px 16px;
 }
+
+header{
+    margin: 6px 12px;
+}
+
+.carousel-item {
+    margin-top: 100px;
+  }
