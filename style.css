@@ -9,7 +9,7 @@ header{
 }
 
 .carousel-item {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
 #carouselExample{
@@ -28,10 +28,53 @@ header{
   .carousel-indicators button{
     min-width: 28px;
     min-height: 8px;
-    background-color: rgb(140, 145, 140) !important;
+    background-color: rgb(125, 126, 125) !important;
     border: none;
   }
   
   .carousel-indicators button.active {
-    background-color: red  !important;
+    background-color: rgb(83, 77, 77) !important;
   }
+
+@media (max-width: 768px) {
+    .carousel-item {
+      margin-top: 30px;
+    }
+  
+    #carouselExample {
+      height: auto; 
+    }
+  
+    #carouselExample img {
+      height: auto; 
+      max-width: 100%;
+    }
+  
+    .carousel-indicators {
+      justify-content: center !important;
+    }
+
+    .carousel-indicators button{
+        background-color: rgb(238, 248, 238) !important;
+      }
+  
+    .nav-item {
+      font-size: 16px; 
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .carousel-item {
+      margin-top: 30px;
+    }
+  
+    #carouselExample {
+      height: auto; 
+    }
+  
+    #carouselExample img {
+        height: 280px;
+        max-width: 100%;
+    }
+  }
+  
