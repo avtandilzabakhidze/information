@@ -1,80 +1,112 @@
-.nav-item{
+.nav-item {
     font-size: 18px;
     font-family: sans-serif;
     padding: 4px 16px;
 }
 
-header{
+header {
     margin: 6px 12px;
 }
 
 .carousel-item {
     margin-top: 60px;
-  }
+}
 
-#carouselExample{
+#carouselExample {
     height: 480px;
 }
 
-#carouselExample img{
+#carouselExample img {
     height: 370px;
 }
 
-  .carousel-indicators{
+.carousel-indicators {
     margin-left: 0 !important;
     justify-content: flex-start !important;
-  }
+}
 
-  .carousel-indicators button{
+.carousel-indicators button {
     min-width: 28px;
     min-height: 8px;
     background-color: rgb(125, 126, 125) !important;
     border: none;
-  }
-  
-  .carousel-indicators button.active {
+}
+
+.carousel-indicators button.active {
     background-color: rgb(83, 77, 77) !important;
-  }
+}
+
+#cards img{
+    border-radius: 0 !important;
+    min-height:280px;
+}
+
+#slider img {
+    border-radius: 0 !important;
+}
+
+#cards h5{
+    color: wheat;
+}
+
+
+.card {
+    overflow: hidden; 
+}
+.card-img {
+    transition: transform 0.5s ease;
+}
+.card:hover .card-img {
+    transform: scale(1.2);
+    opacity: 0.9;
+}
 
 @media (max-width: 768px) {
     .carousel-item {
-      margin-top: 30px;
-    }
-  
-    #carouselExample {
-      height: auto; 
-    }
-  
-    #carouselExample img {
-      height: auto; 
-      max-width: 100%;
-    }
-  
-    .carousel-indicators {
-      justify-content: center !important;
+        margin-top: 30px;
     }
 
-    .carousel-indicators button{
-        background-color: rgb(238, 248, 238) !important;
-      }
-  
-    .nav-item {
-      font-size: 16px; 
-    }
-  }
-  
-  @media (max-width: 1024px) {
-    .carousel-item {
-      margin-top: 30px;
-    }
-  
     #carouselExample {
-      height: auto; 
+        height: auto;
     }
-  
+
+    #carouselExample img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .carousel-indicators {
+        justify-content: center !important;
+    }
+
+    .carousel-indicators button {
+        background-color: rgb(238, 248, 238) !important;
+    }
+
+    .nav-item {
+        font-size: 16px;
+    }
+
+    #slider {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .carousel-item {
+        margin-top: 30px;
+    }
+
+    #carouselExample {
+        height: auto;
+    }
+
     #carouselExample img {
         height: 280px;
         max-width: 100%;
     }
-  }
-  
+
+    #slider {
+        margin-bottom: 40px;
+    }
+}
