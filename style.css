@@ -11,3 +11,27 @@ header{
 .carousel-item {
     margin-top: 100px;
   }
+
+#carouselExample{
+    height: 480px;
+}
+
+#carouselExample img{
+    height: 370px;
+}
+
+  .carousel-indicators{
+    margin-left: 0 !important;
+    justify-content: flex-start !important;
+  }
+
+  .carousel-indicators button{
+    min-width: 28px;
+    min-height: 8px;
+    background-color: rgb(140, 145, 140) !important;
+    border: none;
+  }
+  
+  .carousel-indicators button.active {
+    background-color: red  !important;
+  }
