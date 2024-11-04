@@ -46,7 +46,7 @@ header {
 }
 
 #cards h5{
-    color: wheat;
+    color: white;
 }
 
 
@@ -60,6 +60,11 @@ header {
     transform: scale(1.2);
     opacity: 0.9;
 }
+
+#head-sport{
+    margin-bottom: 50px;
+}
+
 
 @media (max-width: 768px) {
     .carousel-item {
