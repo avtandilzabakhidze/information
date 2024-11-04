@@ -65,6 +65,20 @@ header {
     margin-bottom: 50px;
 }
 
+.navbar {
+    display: flex !important;
+    justify-content: center !important; /* Centers horizontally */
+    align-items: center !important;     /* Centers vertically */
+}
+
+
+header
+{
+    width: 100% !important;
+}
+
+
+
 
 @media (max-width: 768px) {
     .carousel-item {
