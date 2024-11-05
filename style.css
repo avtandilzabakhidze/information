@@ -73,6 +73,7 @@
 
 
 .card {
+    border-radius: 0 !important;
     overflow: hidden; 
 }
 .card-img {
