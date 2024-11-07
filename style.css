@@ -12,9 +12,6 @@
     font-size: 26px;
 }
 
-#navbarBrand {
-    display: none;
-}
 
 .nav-item {
     font-size: 18px;
@@ -156,10 +153,18 @@ footer {
     padding: 20px 0;
 }
 
-
-.text-back{
+.text-back {
     display: none !important;
 }
+
+
+.myForm {
+    display: flex;
+    margin: 50px 0 50px;
+    background-color: blanchedalmond;
+}
+
+
 
 @media (max-width: 768px) {
     .carousel-item {
@@ -193,8 +198,7 @@ footer {
     }
 
     .topNavBar,
-    hr,
-    #navbarBrand {
+    hr {
         display: none;
     }
 
@@ -219,11 +223,11 @@ footer {
         display: none;
     }
 
-    .text-back{
+    .text-back {
         display: block !important;
     }
 
-    .text-back h3{
+    .text-back h3 {
         font-size: 18px;
     }
 }
@@ -255,9 +259,6 @@ footer {
         display: none;
     }
 
-    #navbarBrand {
-        display: block;
-    }
 
     footer {
         padding: 15px 0;
@@ -268,3 +269,5 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
