@@ -205,9 +205,16 @@ footer {
     #text p {
         max-width: 400px;
     }
+
+    header ul {
+        text-align: center;
+    }
 }
 
 @media (max-width: 1024px) {
+    header ul {
+        text-align: center;
+    }
     .carousel-item {
         margin-top: 30px;
     }
