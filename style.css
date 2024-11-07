@@ -1,33 +1,26 @@
-.Geo
-{
+.Geo {
     font-size: 12px;
 }
 
-.Know
-{
+.Know {
     font-size: 26px;
     font-weight: bold;
     color: (125, 126, 125)
 }
 
-.fa-home
-{
+.fa-home {
     font-size: 26px;
 }
 
-
-#navbarBrand
-{
+#navbarBrand {
     display: none;
 }
-
 
 .nav-item {
     font-size: 18px;
     font-family: sans-serif;
     padding: 0px 16px;
 }
-
 
 .carousel-item {
     margin-top: 60px;
@@ -60,9 +53,9 @@
 .circle {
     display: grid;
     background-color: rgb(123, 81, 223);
-    grid-template-columns: repeat(6, 1fr); 
-    gap: 10px; 
-    justify-items:center;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    justify-items: center;
     align-items: center;
     margin-bottom: 80px;
     margin-top: 30px;
@@ -70,86 +63,85 @@
 
 .circle-circle {
     color: rgb(12, 10, 10);
-    max-width: 130px; 
-    max-height: 130px; 
-    border-radius: 50%; 
+    max-width: 130px;
+    max-height: 130px;
+    border-radius: 50%;
 }
 
-
-#imgid img
-{
-    max-width: 130px; 
+#imgid img {
+    max-width: 130px;
     min-width: 70px;
     min-height: 70px;
     max-height: 130px;
-    width: 10vw; 
-    height: 10vw; 
-    border-radius: 50%; 
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
 }
-
 
 .circle-text {
-    
     text-align: center;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
-
-
-
-
-#cards img{
+#cards img {
     border-radius: 0 !important;
-    min-height:280px;
+    min-height: 280px;
 }
 
 #slider img {
     border-radius: 0 !important;
 }
 
-#cards h5{
+#cards h5 {
     color: white;
 }
 
-
 .card {
-    overflow: hidden; 
+    border-radius: 0 !important;
+    overflow: hidden;
 }
+
 .card-img {
     transition: transform 0.5s ease;
 }
+
 .card:hover .card-img {
     transform: scale(1.2);
     opacity: 0.9;
 }
 
-#head-sport{
+#head-sport {
     margin-bottom: 50px;
 }
 
 .navbar {
     display: flex !important;
     justify-content: center !important;
-    align-items: center !important;    
+    align-items: center !important;
 }
 
-
-header
-{
+header {
     width: 100% !important;
 }
 
-
-
-.topNavBar
-{
+.topNavBar {
     margin: 40px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+#text {
+    margin: 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#text p {
+    max-width: 600px;
+}
 
 footer {
     bottom: 0;
@@ -157,8 +149,8 @@ footer {
     width: 100%;
     background-color: #333;
     color: white;
-    padding: 20px 0; 
-  }
+    padding: 20px 0;
+}
 
 @media (max-width: 768px) {
     .carousel-item {
@@ -191,25 +183,26 @@ footer {
         margin-bottom: 40px;
     }
 
-    .topNavBar,hr, #navbarBrand
-    {
+    .topNavBar,
+    hr,
+    #navbarBrand {
         display: none;
     }
 
     .circle {
-        grid-template-columns: repeat(2, 1fr); 
-        grid-template-rows: repeat(3, auto); 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
     }
 
     .circle-circle {
-        
-        max-width: auto; 
+        max-width: auto;
         max-height: auto;
         margin: 12px;
     }
-    
-   
-    
+
+    #text p {
+        max-width: 400px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -229,36 +222,29 @@ footer {
     #slider {
         margin-bottom: 40px;
     }
-    .topNavBar,hr
-    {
+
+    .topNavBar,
+    hr {
         display: none;
     }
-    #navbarBrand
-    {
+
+    #navbarBrand {
         display: block;
     }
 
-    footer
-    {
-        padding: 15px 0; 
+    footer {
+        padding: 15px 0;
         font-size: 14px;
     }
 
-    @media (max-width: 1024px) {
-        .circle {
-            grid-template-columns: repeat(2, 1fr); 
-        }
-    
-        .circle-circle {
-            width: 30vw;
-            height: 30vw; 
-            max-width: 70px; 
-            max-height: 70px;
-        }
+    .circle {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-
-
-    
-
+    .circle-circle {
+        width: 30vw;
+        height: 30vw;
+        max-width: 70px;
+        max-height: 70px;
+    }
 }
