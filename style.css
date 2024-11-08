@@ -1,10 +1,35 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
 .Geo {
     font-size: 14px;
 }
 
 .Know {
-    font-size: 26px;
-    color: (125, 126, 125)
+    font-size: 30px;
+    color: #4d4b4b;
+    font-weight: 600;
+}
+
+#know-a{
+    text-decoration: none;
+}
+
+#home-icon img{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+#navbarBrand{
+    font-size: 20px;
+    color: #4d4b4b;
+    font-weight: 600;
+}
+
+#navbarBrand img{
+    width: 20px;
+    height: 20px;
 }
 
 .fa-home {
@@ -12,7 +37,8 @@
 }
 
 .nav-item {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
     padding: 0px 16px;
 }
 
@@ -127,6 +153,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.topNavBar img{
+   width: 30px;
+   height: 30px;
 }
 
 #text {
