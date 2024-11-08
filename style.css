@@ -12,7 +12,6 @@
     font-size: 26px;
 }
 
-
 .nav-item {
     font-size: 18px;
     font-family: sans-serif;
@@ -157,14 +156,11 @@ footer {
     display: none !important;
 }
 
-
 .myForm {
     display: flex;
-    margin: 50px 0 50px;
-    background-color: blanchedalmond;
+    margin: 60px 0;
+    text-align: center;
 }
-
-
 
 @media (max-width: 768px) {
     .carousel-item {
@@ -259,7 +255,6 @@ footer {
         display: none;
     }
 
-
     footer {
         padding: 15px 0;
         font-size: 14px;
@@ -269,5 +264,3 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-
