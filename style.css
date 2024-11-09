@@ -245,7 +245,13 @@ footer {
     margin: 40px 0;
 }
 
+#information-page h5{
+ padding-top: 40px;
+}
 
+#information-page h1{
+    padding-bottom: 40px;
+}   
 
 @media (max-width: 768px) {
     .carousel-item {
