@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Poppins", sans-serif;
 }
 
@@ -12,22 +12,22 @@ body{
     font-weight: 600;
 }
 
-#know-a{
+#know-a {
     text-decoration: none;
 }
 
-#home-icon img{
+#home-icon img {
     width: 50px !important;
     height: 50px !important;
 }
 
-#navbarBrand{
+#navbarBrand {
     font-size: 20px;
     color: #4d4b4b;
     font-weight: 600;
 }
 
-#navbarBrand img{
+#navbarBrand img {
     width: 20px;
     height: 20px;
 }
@@ -112,10 +112,6 @@ body{
     min-height: 260px;
 }
 
-#sport-facts img{
-    min-height: 200px !important;
-}
-
 #slider img {
     border-radius: 0 !important;
 }
@@ -159,9 +155,9 @@ header {
     align-items: center;
 }
 
-.topNavBar img{
-   width: 30px;
-   height: 30px;
+.topNavBar img {
+    width: 30px;
+    height: 30px;
 }
 
 #text {
@@ -245,26 +241,37 @@ footer {
     cursor: pointer;
 }
 
-.sport-facts{
+.sport-facts {
     margin: 40px 0;
 }
 
-#information-page h5{
- padding-top: 40px;
+#information-page h5 {
+    padding-top: 40px;
 }
 
-#information-page h1{
+#information-page h1 {
     padding-bottom: 40px;
-}   
+}
 
 .circle-circle {
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;     
-    text-align: center;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 20px 0;
-  }
+}
+
+/* sports spage */
+.card-1 img {
+    border-radius: 0 !important;
+    height: 259px;
+}
+
+.card-1 {
+    border-radius: 0 !important;
+    color: white;
+}
 
 @media (max-width: 768px) {
     .carousel-item {
@@ -326,6 +333,10 @@ footer {
     .text-back h3 {
         font-size: 18px;
     }
+
+    .card-1 img {
+        height: 300px !important;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -360,7 +371,15 @@ footer {
         font-size: 14px;
     }
 
+    #cards img {
+        min-height: 214px;
+    }
+
     .circle {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-1 img {
+        height: 154px;
     }
 }
