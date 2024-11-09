@@ -93,9 +93,9 @@ body{
 
 #imgid img {
     max-width: 140px;
+    max-height: 140px;
     min-width: 96px;
     min-height: 96px;
-    max-height: 140px;
     width: 12vw;
     height: 12vw;
     border-radius: 50%;
@@ -257,6 +257,15 @@ footer {
     padding-bottom: 40px;
 }   
 
+.circle-circle {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;  
+    margin: 20px 0;
+  }
+
 @media (max-width: 768px) {
     .carousel-item {
         margin-top: 30px;
@@ -296,10 +305,6 @@ footer {
     .circle {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
-    }
-
-    .circle-circle {
-        margin: 12px;
     }
 
     #text p {
