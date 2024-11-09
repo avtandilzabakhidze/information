@@ -109,7 +109,11 @@ body{
 
 #cards img {
     border-radius: 0 !important;
-    min-height: 200px;
+    min-height: 260px;
+}
+
+#sport-facts img{
+    min-height: 200px !important;
 }
 
 #slider img {
