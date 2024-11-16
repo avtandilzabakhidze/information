@@ -295,8 +295,35 @@ footer {
     padding-bottom: 20px;
 }
 
+/* tests  */
+#tests {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
 
+#tests .option {
+    width: 48%;
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
 
+#tests .option:hover {
+    border-color: #555;
+}
+
+#tests .option img {
+    max-width: 100% !important;
+    max-height: 270px !important;
+    padding-bottom: 16px;
+    height: auto;
+}
 
 @media (max-width: 768px) {
     .carousel-item {
