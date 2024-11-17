@@ -11,14 +11,23 @@ navbarToggler.addEventListener('click', () => {
 });
 
 // test
-function checkAnswer(element, isCorrect) {
+function checkAnswer(element, isCorrect, nextTestId) {
   if (isCorrect) {
     element.style.border = "2px solid green";
+    if (nextTestId) {
+      setTimeout(() => {
+        element.closest('.container').parentElement.style.display = 'none';
+        document.getElementById(nextTestId).style.display = 'block';
+      }, 1000); 
+    }
   } else {
-    element.style.border = "2px solid rgb(231, 69, 69)";
+    element.style.border = "2px solid red";
+    setTimeout(() => {
+      element.closest('.container').parentElement.style.display = 'none';
+      document.getElementById(nextTestId).style.display = 'block';
+    }, 1000);
   }
-  
-  // Optional: disable further clicks
-  const options = document.querySelectorAll('.option');
+
+  const options = document.querySelectorAll(`#${element.closest('.container').parentElement.id} .option`);
   options.forEach(option => option.onclick = null);
 }

@@ -60,23 +60,50 @@
   </header>
 
   <div id="full-test">
-    <h2 class="container" id="tests-header">რომელია მერსედესის ლოგო ?</h2>
-    <div class="container" id="tests">
-      <div class="option" onclick="checkAnswer(this, true)">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/567px-Mercedes-Logo.svg.png?20230111203159"
-          alt="Mercedes">
-      </div>
-      <div class="option" onclick="checkAnswer(this, false)">
-        <img src="https://logowik.com/content/uploads/images/398_bmw.jpg" alt="BMW">
-      </div>
-      <div class="option" onclick="checkAnswer(this, false)">
-        <img src="https://www.volvotrucks.ae/content/dam/volvo-media/logo/Share-URL-IM_1200x628px.png" alt="Volvo">
-      </div>
-      <div class="option" onclick="checkAnswer(this, false)">
-        <img src="https://i.ebayimg.com/images/g/I5IAAOSwUl5bGG5H/s-l1200.jpg" alt="Mazda">
+    <div id="test-test1">
+      <h2 class="container" id="tests-header">რომელია მერსედესის ლოგო ?</h2>
+      <div class="container" id="tests">
+        <div class="option"  onclick="checkAnswer(this, true, 'test-test2')">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/567px-Mercedes-Logo.svg.png?20230111203159"
+            alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, false , 'test-test2')">
+          <img src="https://logowik.com/content/uploads/images/398_bmw.jpg" alt="BMW">
+        </div>
+        <div class="option" onclick="checkAnswer(this, false , 'test-test2')">
+          <img src="https://www.volvotrucks.ae/content/dam/volvo-media/logo/Share-URL-IM_1200x628px.png" alt="Volvo">
+        </div>
+        <div class="option" onclick="checkAnswer(this, false , 'test-test2')">
+          <img src="https://i.ebayimg.com/images/g/I5IAAOSwUl5bGG5H/s-l1200.jpg" alt="Mazda">
+        </div>
       </div>
     </div>
+
+    <div id="test-test2" style="display: none;">
+      <h2 class="container" id="tests-header">რომელია BMW ლოგო ?</h2>
+      <div class="container" id="tests">
+        <div class="option" onclick="checkAnswer(this, false)">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/567px-Mercedes-Logo.svg.png?20230111203159"
+            alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, true , 'test-resut')">
+          <img src="https://logowik.com/content/uploads/images/398_bmw.jpg" alt="BMW">
+        </div>
+        <div class="option" onclick="checkAnswer(this, false)">
+          <img src="https://www.volvotrucks.ae/content/dam/volvo-media/logo/Share-URL-IM_1200x628px.png" alt="Volvo">
+        </div>
+        <div class="option" onclick="checkAnswer(this, false)">
+          <img src="https://i.ebayimg.com/images/g/I5IAAOSwUl5bGG5H/s-l1200.jpg" alt="Mazda">
+        </div>
+      </div>
+    </div>
+
+    <div id="test-resut" style="display: none;">
+    <h3 class="container">წარმატებული დასასრული</h3>
+    </div>
+
   </div>
 
   <footer>
