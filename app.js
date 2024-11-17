@@ -11,20 +11,25 @@ navbarToggler.addEventListener('click', () => {
 });
 
 // test
+let score = 0;
+
 function checkAnswer(element, isCorrect, nextTestId) {
   if (isCorrect) {
     element.style.border = "2px solid green";
-    if (nextTestId) {
-      setTimeout(() => {
-        element.closest('.container').parentElement.style.display = 'none';
-        document.getElementById(nextTestId).style.display = 'block';
-      }, 1000); 
-    }
+    score++;
   } else {
     element.style.border = "2px solid red";
+  }
+
+  if (nextTestId) {
     setTimeout(() => {
       element.closest('.container').parentElement.style.display = 'none';
-      document.getElementById(nextTestId).style.display = 'block';
+      const nextTestElement = document.getElementById(nextTestId);
+      nextTestElement.style.display = 'block';
+
+      if (nextTestId === 'test-resut') {
+        nextTestElement.innerHTML += `<p class = "container">წარმატებული დასასრული , შედეგი: ${score}</p>`;
+      }
     }, 1000);
   }
 
