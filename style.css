@@ -289,15 +289,15 @@ footer {
 
 }
 
-#information-page p {
+/* #information-page p {
     font-weight: 300;
     padding-top: 10px;
     padding-bottom: 20px;
-}
+} */
 
 /* tests  */
 #tests {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -321,8 +321,11 @@ footer {
 #tests .option img {
     max-width: 100% !important;
     max-height: 270px !important;
-    padding-bottom: 16px;
     height: auto;
+}
+
+#tests-heder {
+    margin-top: 30px;
 }
 
 @media (max-width: 768px) {
