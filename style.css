@@ -185,7 +185,11 @@ footer {
 #submit {
     background-color: #4d4b4b;
     border: none !important;
+    border-radius: 0 !important;
     transition: opacity 0.4s ease;
+}
+#email{
+    border-radius: 0 !important;
 }
 
 #email::placeholder {
@@ -288,12 +292,6 @@ footer {
     padding-bottom: 10px;
 
 }
-
-/* #information-page p {
-    font-weight: 300;
-    padding-top: 10px;
-    padding-bottom: 20px;
-} */
 
 /* tests  */
 #tests {
