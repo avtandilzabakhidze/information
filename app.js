@@ -9,3 +9,16 @@ navbarToggler.addEventListener('click', () => {
     navbarBrand.classList.toggle('d-none');
   }
 });
+
+// test
+function checkAnswer(element, isCorrect) {
+  if (isCorrect) {
+    element.style.border = "2px solid green";
+  } else {
+    element.style.border = "2px solid rgb(231, 69, 69)";
+  }
+  
+  // Optional: disable further clicks
+  const options = document.querySelectorAll('.option');
+  options.forEach(option => option.onclick = null);
+}
