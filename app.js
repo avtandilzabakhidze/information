@@ -13,7 +13,10 @@ navbarToggler.addEventListener('click', () => {
 // test
 let score = 0;
 
+let scoreCounter = 0;
+
 function checkAnswer(element, isCorrect, nextTestId) {
+  scoreCounter++;
   if (isCorrect) {
     element.style.border = "2px solid green";
     score++;
@@ -28,7 +31,8 @@ function checkAnswer(element, isCorrect, nextTestId) {
       nextTestElement.style.display = 'block';
 
       if (nextTestId === 'test-resut') {
-        nextTestElement.innerHTML += `<p class = "container">წარმატებული დასასრული , შედეგი: ${score}</p>`;
+        nextTestElement.innerHTML += ` <div class="container" style="text-align: center;"><img class="container" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHdjZ3ViY2lscW9ldHY0Y2pxYjR3N2N3ZmY2ZGU1OHdqZmx3bzhvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UShW8A2CRzW67yU4qp/giphy.webp" 
+        style="max-width: 1000px; max-height: 700px; display: block; margin: 0 auto;"><p class = "container" style = "text-aling: center !important; padding: 20px 0; margin: 0 auto !important;">წარმატებული დასასრული , შედეგი: ${score}</p> </div>`;
       }
     }, 1000);
   }
