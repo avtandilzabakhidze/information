@@ -33,7 +33,18 @@ const correctAnswers = {
   'test-test17': 0,
   'test-test18': 1,
   'test-test19': 2,
-  'test-test20': 2
+  'test-test20': 2,
+
+  'test-test31': 0,
+  'test-test32': 2,
+  'test-test33': 2,
+  'test-test34': 0,
+  'test-test35': 1,
+  'test-test36': 0,
+  'test-test37': 1,
+  'test-test38': 3,
+  'test-test39': 3,
+  'test-test40': 0
 };
 
 function checkAnswer(element, selectedIndex, nextTestId) {
