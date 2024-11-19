@@ -55,6 +55,14 @@ body {
     height: 370px;
 }
 
+.body-info {
+    height: 100vh!important;
+}
+
+.info{
+    text-align: center;
+}
+
 .carousel-indicators {
     margin-left: 0 !important;
     justify-content: flex-start !important;
