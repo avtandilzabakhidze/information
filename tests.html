@@ -60,50 +60,223 @@
   </header>
 
   <div id="full-test">
+    <!-- Question 1 -->
     <div id="test-test1">
-      <h2 class="container" id="tests-header"><div id="count-count">1/10</div>რომელია მერსედესის ლოგო ?</h2>
+      <h2 class="container" id="tests-header">
+        <div id="count-count">1/10</div>რომელია მერსედესის ლოგო ?
+      </h2>
       <div class="container" id="tests">
-        <div class="option"  onclick="checkAnswer(this, true, 'test-test2')">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/567px-Mercedes-Logo.svg.png?20230111203159"
-            alt="Mercedes">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-test2')">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/567px-Mercedes-Logo.svg.png?20230111203159" alt="Mercedes">
         </div>
-        <div class="option" onclick="checkAnswer(this, false , 'test-test2')">
-          <img src="https://logowik.com/content/uploads/images/398_bmw.jpg" alt="BMW">
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-test2')">
+          <img src="https://di-uploads-pod46.dealerinspire.com/ewingsubaruofplano/uploads/2023/03/Subaru-Logo-with-White-Background_o.jpg" alt="BMW">
         </div>
-        <div class="option" onclick="checkAnswer(this, false , 'test-test2')">
+        <div class="option" onclick="checkAnswer(this, 2 , 'test-test2')">
           <img src="https://www.volvotrucks.ae/content/dam/volvo-media/logo/Share-URL-IM_1200x628px.png" alt="Volvo">
         </div>
-        <div class="option" onclick="checkAnswer(this, false , 'test-test2')">
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-test2')">
           <img src="https://i.ebayimg.com/images/g/I5IAAOSwUl5bGG5H/s-l1200.jpg" alt="Mazda">
         </div>
       </div>
     </div>
 
+    <!-- Question 2 -->
     <div id="test-test2" style="display: none;">
-      <h2 class="container" id="tests-header"><div id="count-count">2/10</div>რომელია BMW ლოგო ?</h2>
+      <h2 class="container" id="tests-header">
+        <div id="count-count">2/10</div>რომელია BMW ლოგო ?
+      </h2>
       <div class="container" id="tests">
-        <div class="option" onclick="checkAnswer(this, false)">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/567px-Mercedes-Logo.svg.png?20230111203159"
-            alt="Mercedes">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-test3')">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mitsubishi_logo.svg/1200px-Mitsubishi_logo.svg.png" alt="Mercedes">
         </div>
-        <div class="option" onclick="checkAnswer(this, true , 'test-resut')">
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-test3')">
           <img src="https://logowik.com/content/uploads/images/398_bmw.jpg" alt="BMW">
         </div>
-        <div class="option" onclick="checkAnswer(this, false)">
+        <div class="option" onclick="checkAnswer(this, 2, 'test-test3')">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm5dqpijBK0ynfeklD0mQcZPYyOgmHkZEdtQ&s" alt="Volvo">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-test3')">
+          <img src="https://www.autocarbrands.com/wp-content/uploads/2014/05/1024px-Alfa_Romeo.svg_1.png" alt="Mazda">
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div id="test-test3" style="display: none;">
+      <h2 class="container" id="tests-header">
+        <div id="count-count">3/10</div>რომელია Volvo ლოგო ?
+      </h2>
+      <div class="container" id="tests">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-test4')">
+          <img src="https://logos-world.net/wp-content/uploads/2021/03/Jaguar-Logo.png" alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-test4')">
+          <img src="https://1000logos.net/wp-content/uploads/2018/02/Porsche-Crest-1973.png" alt="BMW">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 2, 'test-test4')">
           <img src="https://www.volvotrucks.ae/content/dam/volvo-media/logo/Share-URL-IM_1200x628px.png" alt="Volvo">
         </div>
-        <div class="option" onclick="checkAnswer(this, false)">
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-test4')">
           <img src="https://i.ebayimg.com/images/g/I5IAAOSwUl5bGG5H/s-l1200.jpg" alt="Mazda">
         </div>
       </div>
     </div>
 
-    <div id="test-resut" style="display: none;">
+    <!-- Question 4 -->
+    <div id="test-test4" style="display: none;">
+      <h2 class="container" id="tests-header">
+        <div id="count-count">4/10</div>რომელია Mazda ლოგო ?
+      </h2>
+      <div class="container" id="tests">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-test5')">
+          <img src="https://1000logos.net/wp-content/uploads/2021/03/Corvette-logo-500x281.png" alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-test5')">
+          <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/disney-and-pixar-cars-logo.png" alt="BMW">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 2, 'test-test5')">
+          <img src="https://1000logos.net/wp-content/uploads/2018/02/Porsche-Crest-1973.png" alt="Volvo">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-test5')">
+          <img src="https://i.ebayimg.com/images/g/I5IAAOSwUl5bGG5H/s-l1200.jpg" alt="Mazda">
+        </div>
+      </div>
     </div>
 
-  </div>
+    
+    <!-- Question 5 -->
+    <div id="test-test5" style="display: none;">
+      <h2 class="container" id="tests-header">
+        <div id="count-count">5/10</div>რომელია Audi ლოგო ?
+      </h2>
+      <div class="container" id="tests">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-test6')">
+          <img src="https://logos-world.net/wp-content/uploads/2020/05/Ferrari-Emblem.png" alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-test6')">
+          <img src="https://www.right2drive.com.au/wp-content/uploads/2023/06/Frame-239104.webp" alt="Audi">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 2, 'test-test6')">
+          <img src="https://www.volvotrucks.ae/content/dam/volvo-media/logo/Share-URL-IM_1200x628px.png" alt="Volvo">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-test6')">
+          <img src="https://i.pinimg.com/736x/93/2b/71/932b7146056b64b4bc0aafba033dae7e.jpg" alt="Mazda">
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 6 -->
+    <div id="test-test6" style="display: none;">
+      <h2 class="container" id="tests-header">
+        <div id="count-count">6/10</div>რომელია Toyota ლოგო ?
+      </h2>
+      <div class="container" id="tests">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-test7')">
+          <img src="https://logohistory.net/wp-content/uploads/2023/01/american-car-brands-3.png" alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-test7')">
+          <img src="https://1000logos.net/wp-content/uploads/2018/02/Porsche-Crest-1973.png" alt="Audi">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 2, 'test-test7')">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsRogInWCqD3bL0dt0G61S7UqBff0yRBdrwA&s" alt="Toyota">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-test7')">
+          <img src="https://www.right2drive.com.au/wp-content/uploads/2023/06/Frame-239104.webp" alt="Mazda">
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 7 -->
+    <div id="test-test7" style="display: none;">
+      <h2 class="container" id="tests-header">
+        <div id="count-count">7/10</div>რომელია Ferrari ლოგო ?
+      </h2>
+      <div class="container" id="tests">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-test8')">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/567px-Mercedes-Logo.svg.png?20230111203159" alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-test8')">
+          <img src="https://logos-world.net/wp-content/uploads/2020/05/Ferrari-Emblem.png" alt="Ferrari">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 2, 'test-test8')">
+          <img src="https://www.volvotrucks.ae/content/dam/volvo-media/logo/Share-URL-IM_1200x628px.png" alt="Volvo">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-test8')">
+          <img src="https://i.ebayimg.com/images/g/I5IAAOSwUl5bGG5H/s-l1200.jpg" alt="Mazda">
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 8 -->
+    <div id="test-test8" style="display: none;">
+      <h2 class="container" id="tests-header">
+        <div id="count-count">8/10</div>რომელია Nissan ლოგო ?
+      </h2>
+      <div class="container" id="tests">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-test9')">
+          <img src="https://logos-world.net/wp-content/uploads/2020/05/Ferrari-Emblem.png" alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-test9')">
+          <img src="https://logowik.com/content/uploads/images/607_nissan_logo.jpg" alt="Nissan">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 2, 'test-test9')">
+          <img src="https://www.volvotrucks.ae/content/dam/volvo-media/logo/Share-URL-IM_1200x628px.png" alt="Volvo">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-test9')">
+          <img src="https://i.ebayimg.com/images/g/I5IAAOSwUl5bGG5H/s-l1200.jpg" alt="Mazda">
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 9 -->
+    <div id="test-test9" style="display: none;">
+      <h2 class="container" id="tests-header">
+        <div id="count-count">9/10</div>რომელია Honda ლოგო ?
+      </h2>
+      <div class="container" id="tests">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-test10')">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/567px-Mercedes-Logo.svg.png?20230111203159" alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-test10')">
+          <img src="https://hipfonts.com/wp-content/uploads/2022/08/Honda-logo-icon-shape-min.jpg" alt="Honda">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 2, 'test-test10')">
+          <img src="https://i.pinimg.com/736x/09/1f/d8/091fd8b78be88560acfe1b5b22f67aed.jpg" alt="Volvo">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-test10')">
+          <img src="https://i.ebayimg.com/images/g/I5IAAOSwUl5bGG5H/s-l1200.jpg" alt="Mazda">
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 10 -->
+    <div id="test-test10" style="display: none;">
+      <h2 class="container" id="tests-header">
+        <div id="count-count">10/10</div>რომელია Porsche ლოგო ?
+      </h2>
+      <div class="container" id="tests">
+        <div class="option" onclick="checkAnswer(this, 0, 'test-result')">
+          <img src="https://logohistory.net/wp-content/uploads/2023/01/american-car-brands-3.png" alt="Mercedes">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 1 , 'test-result')">
+          <img src="https://1000logos.net/wp-content/uploads/2018/02/Porsche-Crest-1973.png" alt="Porsche">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 2, 'test-result')">
+          <img src="https://www.volvotrucks.ae/content/dam/volvo-media/logo/Share-URL-IM_1200x628px.png" alt="Volvo">
+        </div>
+        <div class="option" onclick="checkAnswer(this, 3 , 'test-result')">
+          <img src="https://logowik.com/content/uploads/images/398_bmw.jpg" alt="Mazda">
+        </div>
+      </div>
+    </div>
+
+    <!-- Result section -->
+    <div id="test-result" style="display: none;">
+      <!-- Display test result here -->
+    </div>
+</div>
+
 
   <footer>
     <div>
