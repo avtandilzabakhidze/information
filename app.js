@@ -47,7 +47,16 @@ const correctAnswers = {
   'test-test40': 0,
 
 
-  // akamde shesatania test - test 41    // შედეგის გამოტანისას დავამატოთ რამდენიდან რამდენს უპასუხა სწორად. 
+  'test-test41': 0,
+  'test-test42': 0,
+  'test-test43': 1,
+  'test-test44': 0,
+  'test-test45': 3,
+  'test-test46': 0,
+  'test-test47': 0,
+  'test-test48': 1,
+  'test-test49': 2,
+  'test-test50': 1,
 
   'test-test51': 0,
   'test-test52': 3,
