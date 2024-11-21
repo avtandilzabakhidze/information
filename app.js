@@ -44,7 +44,21 @@ const correctAnswers = {
   'test-test37': 1,
   'test-test38': 3,
   'test-test39': 3,
-  'test-test40': 0
+  'test-test40': 0,
+
+
+  // akamde shesatania test - test 41    // შედეგის გამოტანისას დავამატოთ რამდენიდან რამდენს უპასუხა სწორად. 
+
+  'test-test51': 0,
+  'test-test52': 3,
+  'test-test53': 2,
+  'test-test54': 3,
+  'test-test55': 2,
+  'test-test56': 0,
+  'test-test57': 1,
+  'test-test58': 3,
+  'test-test59': 0,
+  'test-test60': 3
 };
 
 function checkAnswer(element, selectedIndex, nextTestId) {
@@ -93,6 +107,6 @@ function checkAnswer(element, selectedIndex, nextTestId) {
           </div>
         `;
       }
-    }, 1000);
+    }, 600);
   }
 }
