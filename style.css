@@ -19,10 +19,9 @@ footer {
     cursor: pointer;
 }
 
-.Know {
-    font-size: 30px;
-    color: #4d4b4b;
-    font-weight: 600;
+.Know img{
+  width: 140px !important;
+  height: 36px !important;
 }
 
 #know-a {
@@ -179,7 +178,7 @@ header {
     align-items: center;
 }
 
-.topNavBar img {
+#home-icon img {
     width: 30px;
     height: 30px;
 }
