@@ -112,7 +112,7 @@ function checkAnswer(element, selectedIndex, nextTestId) {
           </div>
         `;
       }
-    }, 1);
+    }, 600);
   }
 }
 
