@@ -336,7 +336,8 @@ footer {
     width: 49%;
     border: 2px solid #ddd;
     padding: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     transition: 0.3s;
     margin-top: 20px;
