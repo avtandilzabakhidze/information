@@ -116,7 +116,7 @@ function checkAnswer(element, selectedIndex, nextTestId) {
           </div>
         `;
       }
-    }, 600);
+    }, 1);
   }
 }
 
