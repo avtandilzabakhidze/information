@@ -357,7 +357,19 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    max-height: 40px
+    max-height: 40px;
+}
+
+#count-count {
+    white-space: nowrap;
+  }
+
+strong{
+    font-size: 36px;
+}
+
+#count-count{
+   padding-left: 10px;
 }
 
 @media (max-width: 768px) {
@@ -427,6 +439,10 @@ footer {
 
     .card-1 img {
         height: 300px !important;
+    }
+
+    #tests-header{
+        font-size: 26px !important;
     }
 }
 
