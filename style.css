@@ -72,12 +72,12 @@ body {
 .carousel-indicators button {
     min-width: 28px;
     min-height: 8px;
-    background-color: rgb(125, 126, 125) !important;
+    background-color: rgb(80, 82, 80) !important;
     border: none;
 }
 
 .carousel-indicators button.active {
-    background-color: rgb(83, 77, 77) !important;
+    background-color: rgb(68, 64, 64) !important;
 }
 
 .circle {
@@ -221,7 +221,7 @@ footer {
 
 .myForm {
     display: flex;
-    margin: 100px 0;
+    margin: 120px 0;
     text-align: center;
 }
 
@@ -235,7 +235,7 @@ footer {
 }
 
 #text-in {
-    margin: 70px 0;
+    margin: 100px 0;
     text-align: center !important;
 }
 
