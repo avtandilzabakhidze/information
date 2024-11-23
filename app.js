@@ -119,3 +119,18 @@ function checkAnswer(element, selectedIndex, nextTestId) {
     }, 600);
   }
 }
+
+
+// submit button stay 
+function handleFormSubmit(event) {
+  event.preventDefault();
+
+  const emailInput = document.getElementById('email').value;
+  if (emailInput) {
+    console.log('Email submitted:', emailInput);
+  } else {
+    console.log('Email field is empty');
+  }
+
+  return false;
+}

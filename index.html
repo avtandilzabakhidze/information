@@ -244,7 +244,7 @@
         <div class="col-md-6">
           <h2>ელ.ფოსტის მისამართი</h2>
           <p>მიიღეთ ინფორმაცია სიახლეების შესახებ</p>
-          <form>
+          <form onsubmit="return handleFormSubmit(event)">
             <div class="mb-3">
               <input type="email" class="form-control" id="email" name="email" placeholder="შეიყვანეთ თქვენი ელ.ფოსტა"
                 required>
