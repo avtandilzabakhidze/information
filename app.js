@@ -95,15 +95,19 @@ function checkAnswer(element, selectedIndex, nextTestId) {
         let gifUrl = '';
 
         if (score <= 3) {
-          gifUrl = 'https://i.gifer.com/3tfo.gif';
-          resultMessage = `ცუდი შედეგი, შედეგი: ${score} / 10`;
-        } else if (score <= 7) {
-          gifUrl = 'https://media4.giphy.com/media/TFiA77l0TNNGgyS58H/giphy.gif?cid=6c09b952qrmb1146kerpm6hdqznm247bvjczn7t0wte5iv1q&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g'; 
-          resultMessage = `ნორმალური დასასრული , შედეგი: ${score} / 10`;
-        }else{
-          gifUrl = 'https://media.tenor.com/A06Ykcsz23wAAAAM/coolz.gif';
-          resultMessage = `წარმატებული დასასრული , შედეგი: ${score} / 10`;
-        }
+          gifUrl = 'https://media1.giphy.com/media/UdM6BoaQyIZHMU7YHu/200w.gif?cid=6c09b9528mhahnv9j80b11eo44t6q1c4td0umo0o0rucdj1n&ep=v1_gifs_search&rid=200w.gif&ct=g';
+          resultMessage = `არაუშავს! კიდევ სცადე 🚶‍♂️ შედეგი: ${score} / 10`;
+        } else if (score < 7) {
+          gifUrl = 'https://i.pinimg.com/originals/9c/f4/36/9cf4361811aca2cfbf0d984cb3a8996f.gif'; 
+          resultMessage = `გილოცავ! ნელ-ნელა მწვერვალს უახლოვდები 🧗‍♂️ შედეგი: ${score} / 10`;
+        }else if(score < 10){
+          gifUrl = 'https://media.tenor.com/KRnLmD-HYAMAAAAM/wow-oh.gif';
+          resultMessage = `საუკეთესო ხარ! 🏆 შედეგი: ${score} / 10`;
+        } else {
+          gifUrl = 'https://media4.giphy.com/media/fDbzXb6Cv5L56/200w.gif?cid=6c09b95274hcsb043e2ew6m0nec5ptg6uftazocqe1ozjve3&ep=v1_gifs_search&rid=200w.gif&ct=g';
+          resultMessage = `WOW! მაქსიმალური ქულა! 👑 შედეგი: ${score} / 10`;
+        
+      }
 
         nextTestElement.innerHTML = `
           <div class="container" style="text-align: center;">
