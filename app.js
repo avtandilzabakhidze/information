@@ -120,9 +120,14 @@ function checkAnswer(element, selectedIndex, nextTestId) {
 function handleFormSubmit(event) {
   event.preventDefault();
 
-  const emailInput = document.getElementById('email').value;
-  if (emailInput) {
-    console.log('Email submitted:', emailInput);
+  const emailInput = document.getElementById('email');
+  const emailValue = emailInput.value;
+
+  if (emailValue) {
+    console.log('Email submitted:', emailValue);
+    setTimeout(() => {
+      emailInput.value = '';
+    }, 500);
   } else {
     console.log('Email field is empty');
   }
