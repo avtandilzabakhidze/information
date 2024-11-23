@@ -46,7 +46,6 @@ const correctAnswers = {
   'test-test39': 3,
   'test-test40': 0,
 
-
   'test-test41': 0,
   'test-test42': 0,
   'test-test43': 1,
@@ -71,9 +70,7 @@ const correctAnswers = {
 };
 
 function checkAnswer(element, selectedIndex, nextTestId) {
-
-  const currentTestId = element.closest('.container').parentElement.id;
-
+ const currentTestId = element.closest('.container').parentElement.id;
 
   if (selectedIndex === correctAnswers[currentTestId]) {
     element.style.border = "2px solid green";
@@ -82,32 +79,31 @@ function checkAnswer(element, selectedIndex, nextTestId) {
     element.style.border = "2px solid red";
   }
 
-
   const options = document.querySelectorAll(`#${currentTestId} .option`);
   options.forEach(option => option.onclick = null);
-
 
   if (nextTestId) {
     setTimeout(() => {
 
       element.closest('.container').parentElement.style.display = 'none';
 
-
       const nextTestElement = document.getElementById(nextTestId);
       nextTestElement.style.display = 'block';
 
-
       if (nextTestId === 'test-result') {
-        const resultMessage = `წარმატებული დასასრული , შედეგი: ${score}`;
+        let resultMessage = ``;
         let gifUrl = '';
 
-
-        if (score >= 8) {
-          gifUrl = 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHdjZ3ViY2lscW9ldHY0Y2pxYjR3N2N3ZmY2ZGU1OHdqZmx3bzhvayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UShW8A2CRzW67yU4qp/giphy.webp'; // Success gif
-        } else if (score <= 2) {
-          gifUrl = 'https://media3.giphy.com/media/l41m5h1yLXqAi5Uf6/giphy.gif?cid=6c09b952fk9caxrlrikdmhba0ux72fi7mppj77wbl96x4qeg&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g'; // Fail gif
+        if (score <= 3) {
+          gifUrl = 'https://i.gifer.com/3tfo.gif';
+          resultMessage = `ცუდი შედეგი, შედეგი: ${score} / 10`;
+        } else if (score <= 7) {
+          gifUrl = 'https://media4.giphy.com/media/TFiA77l0TNNGgyS58H/giphy.gif?cid=6c09b952qrmb1146kerpm6hdqznm247bvjczn7t0wte5iv1q&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g'; 
+          resultMessage = `ნორმალური დასასრული , შედეგი: ${score} / 10`;
+        }else{
+          gifUrl = 'https://media.tenor.com/A06Ykcsz23wAAAAM/coolz.gif';
+          resultMessage = `წარმატებული დასასრული , შედეგი: ${score} / 10`;
         }
-
 
         nextTestElement.innerHTML = `
           <div class="container" style="text-align: center;">
@@ -119,7 +115,6 @@ function checkAnswer(element, selectedIndex, nextTestId) {
     }, 1);
   }
 }
-
 
 // submit button stay 
 function handleFormSubmit(event) {
