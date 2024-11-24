@@ -106,7 +106,6 @@ function checkAnswer(element, selectedIndex, nextTestId) {
         } else {
           gifUrl = 'https://media4.giphy.com/media/fDbzXb6Cv5L56/200w.gif?cid=6c09b95274hcsb043e2ew6m0nec5ptg6uftazocqe1ozjve3&ep=v1_gifs_search&rid=200w.gif&ct=g';
           resultMessage = `WOW! მაქსიმალური ქულა! 👑 შედეგი: ${score} / 10`;
-        
       }
 
         nextTestElement.innerHTML = `
@@ -116,7 +115,7 @@ function checkAnswer(element, selectedIndex, nextTestId) {
           </div>
         `;
       }
-    }, 1);
+    }, 600);
   }
 }
 
