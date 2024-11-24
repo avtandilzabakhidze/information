@@ -290,7 +290,7 @@ footer {
 /* quiz spage */
 .card-img {
     border-radius: 0 !important;
-    height: 259px;
+    height: 260px;
 }
 
 .card-1 {
@@ -421,6 +421,11 @@ strong{
     #tests-header{
         font-size: 26px !important;
     }
+    
+    #cards img {
+        min-height: 220px !important;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -437,7 +442,7 @@ strong{
     }
 
     #carouselExample img {
-        height: 280px;
+        max-height: 280px;
         max-width: 100%;
     }
 
@@ -456,7 +461,7 @@ strong{
     }
 
     #cards img {
-        min-height: 214px;
+        min-height: 200px;
     }
 
     .circle {
@@ -465,5 +470,9 @@ strong{
 
     .card-1 img {
         height: 154px;
+    }
+
+    .card-img{
+        height: 160px;
     }
 }
