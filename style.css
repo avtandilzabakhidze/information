@@ -142,6 +142,16 @@ html, body {
     overflow: hidden;
 }
 
+.card-img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    color: white;
+    text-align: left;
+  }
+
 .card-img {
     transition: transform 0.5s ease;
 }
@@ -326,7 +336,7 @@ footer {
 
 #tests .option img {
     max-width: 100% !important;
-    max-height: 270px !important;
+    height: 170px !important;
     height: auto;
 }
 
