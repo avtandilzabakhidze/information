@@ -56,6 +56,7 @@ html, body {
 }
 
 #carouselExample img {
+    width: 100%;
     height: 370px;
 }
 
