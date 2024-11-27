@@ -47,15 +47,15 @@ const correctAnswers = {
   'test-test40': 0,
 
   'test-test41': 0,
-  'test-test42': 0,
+  'test-test42': 2,
   'test-test43': 1,
-  'test-test44': 0,
-  'test-test45': 3,
-  'test-test46': 0,
-  'test-test47': 0,
+  'test-test44': 1,
+  'test-test45': 0,
+  'test-test46': 3,
+  'test-test47': 3,
   'test-test48': 1,
-  'test-test49': 2,
-  'test-test50': 1,
+  'test-test49': 1,
+  'test-test50': 0,
 
   'test-test51': 0,
   'test-test52': 3,
@@ -115,7 +115,7 @@ function checkAnswer(element, selectedIndex, nextTestId) {
           </div>
         `;
       }
-    }, 0);
+    }, 500);
   }
 }
 
