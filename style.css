@@ -77,8 +77,12 @@ html, body {
     gap: 5px;
     justify-items: center;
     align-items: center;
-    margin-bottom: 36px;
-    margin-top: 36px;
+    margin: 36px;
+    text-align: center;
+}
+
+.circle .circle-text{
+    padding-top: 5px;
 }
 
 #circle-back {
@@ -99,14 +103,8 @@ html, body {
     min-height: 96px;
     width: 12vw;
     height: 12vw;
-    border-radius: 50%;
+    border-radius: 50% !important;
 }
-
-.circle-text {
-    text-align: center;
-    padding-top: 5px;
-}
-
 
 #cards img {
     border-radius: 0 !important;
@@ -154,10 +152,6 @@ html, body {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-}
-
-header {
-    width: 100% !important;
 }
 
 .topNavBar {
