@@ -299,7 +299,7 @@ footer p{
     gap: 2%;
 }
 
-#tests .option {
+#tests .option{
     width: 49%;
     border: 2px solid #ddd;
     padding: 10px;
@@ -345,6 +345,33 @@ strong{
    padding-left: 10px;
 }
 
+.QuizMainImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.QuizMainImg img {
+    max-height: 400px;
+    max-width: 700px;
+    margin-top: 10px;
+}
+
+.QuizAnswerText {
+    display: flex;
+
+}
+
+.QuizAnswerText {
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+
+
 @media (max-width: 768px) {
     .carousel-item {
         margin-top: 30px;
@@ -366,6 +393,7 @@ strong{
 
     .carousel-indicators {
         justify-content: center !important;
+        width: 100%!important;
     }
 
     .carousel-indicators button {
