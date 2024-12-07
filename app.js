@@ -66,7 +66,29 @@ const correctAnswers = {
   'test-test57': 1,
   'test-test58': 3,
   'test-test59': 0,
-  'test-test60': 3
+  'test-test60': 3,
+  
+  'test-test61': 3,
+  'test-test62': 3,
+  'test-test63': 1,
+  'test-test64': 0,
+  'test-test65': 0,
+  'test-test66': 2,
+  'test-test67': 1,
+  'test-test68': 0,
+  'test-test69': 3,
+  'test-test70': 3,
+    
+  'test-test71': 0,
+  'test-test72': 3,
+  'test-test73': 1,
+  'test-test74': 0,
+  'test-test75': 2,
+  'test-test76': 0,
+  'test-test77': 2,
+  'test-test78': 3,
+  'test-test79': 0,
+  'test-test80': 3
 };
 
 function checkAnswer(element, selectedIndex, nextTestId) {
