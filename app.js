@@ -99,18 +99,7 @@ const correctAnswers = {
   'test-test87': 2,
   'test-test88': 2,
   'test-test89': 0,
-  'test-test90': 1,
-  
-  'test-test91': 0,
-  'test-test92': 2,
-  'test-test93': 3,
-  'test-test94': 1,
-  'test-test95': 2,
-  'test-test96': 0,
-  'test-test97': 1,
-  'test-test98': 0,
-  'test-test99': 3,
-  'test-test100': 1
+  'test-test90': 1
 };
 
 function checkAnswer(element, selectedIndex, nextTestId) {
