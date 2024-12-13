@@ -112,6 +112,17 @@ const correctAnswers = {
   'test-test99': 3,
   'test-test100': 1,
 
+  'test-test101': 0,
+  'test-test102': 0,
+  'test-test103': 1,
+  'test-test104': 0,
+  'test-test105': 3,
+  'test-test106': 1,
+  'test-test107': 3,
+  'test-test108': 1,
+  'test-test109': 1,
+  'test-test110': 1,
+
   'test-test161': 3,
   'test-test162': 1,
   'test-test163': 0,
