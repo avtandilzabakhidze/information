@@ -144,6 +144,17 @@ const correctAnswers = {
   'test-test128': 2,
   'test-test129': 0,
   'test-test130': 1,
+    
+  'test-test131': 1,
+  'test-test132': 3,
+  'test-test133': 1,
+  'test-test134': 3,
+  'test-test135': 1,
+  'test-test136': 0,
+  'test-test137': 3,
+  'test-test138': 0,
+  'test-test139': 1,
+  'test-test140': 2,
 
   'test-test161': 3,
   'test-test162': 1,
