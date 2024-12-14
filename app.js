@@ -133,6 +133,17 @@ const correctAnswers = {
   'test-test118': 0,
   'test-test119': 3,
   'test-test120': 0,
+  
+  'test-test121': 1,
+  'test-test122': 0,
+  'test-test123': 3,
+  'test-test124': 2,
+  'test-test125': 0,
+  'test-test126': 2,
+  'test-test127': 3,
+  'test-test128': 2,
+  'test-test129': 0,
+  'test-test130': 1,
 
   'test-test161': 3,
   'test-test162': 1,
