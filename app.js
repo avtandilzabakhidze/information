@@ -21,8 +21,8 @@ const correctAnswers = {
   'test-test6': 2,
   'test-test7': 1,
   'test-test8': 1,
-  'test-test9': 1,
-  'test-test10': 1,
+  'test-test9': 0,
+  'test-test10': 2,
 
   'test-test11': 0,
   'test-test12': 0,

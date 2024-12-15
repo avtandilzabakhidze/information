@@ -447,6 +447,7 @@ strong {
    .QuizMainImg img {
     height: 247px;
 }
+}
 
 @media (max-width: 1024px) {
     header ul {
