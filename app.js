@@ -314,3 +314,16 @@ function handleFormSubmit(event) {
 
   return false;
 }
+
+document.addEventListener("click", function (event) {
+  const navbar = document.getElementById("navbarNav");
+  const navbarToggle = document.querySelector(".navbar-toggler");
+
+  if (
+    navbar.classList.contains("show") &&
+    !navbar.contains(event.target) &&
+    !navbarToggle.contains(event.target)
+  ) {
+    navbarToggle.click();
+  }
+});
