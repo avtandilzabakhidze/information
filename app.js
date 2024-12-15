@@ -176,7 +176,19 @@ const correctAnswers = {
   'test-test197': 1,
   'test-test198': 3,
   'test-test199': 0,
-  'test-test200': 2
+  'test-test200': 2,
+
+  'test-test201': 0,
+  'test-test202': 2,
+  'test-test203': 3,
+  'test-test204': 0,
+  'test-test205': 3,
+  'test-test206': 1,
+  'test-test207': 1,
+  'test-test208': 1,
+  'test-test209': 3,
+  'test-test210': 0
+  
 };
 
 function checkAnswer(element, selectedIndex, nextTestId) {
