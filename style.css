@@ -136,7 +136,7 @@ h5 {
 }
 
 #cards h5 {
-    color: #720707;
+    color: #ffffff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
@@ -292,7 +292,6 @@ footer p {
     border: none !important;
     border-radius: 0 !important;
     color: #ffffff;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 /* tests  */
