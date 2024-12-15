@@ -220,7 +220,18 @@ const correctAnswers = {
   'test-test207': 1,
   'test-test208': 1,
   'test-test209': 3,
-  'test-test210': 0
+  'test-test210': 0,
+
+  'test-test211': 3,
+  'test-test212': 2,
+  'test-test213': 0,
+  'test-test214': 1,
+  'test-test215': 3,
+  'test-test216': 1,
+  'test-test217': 0,
+  'test-test218': 1,
+  'test-test219': 1,
+  'test-test220': 0,
   
 };
 
