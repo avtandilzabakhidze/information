@@ -250,10 +250,12 @@ function checkAnswer(element, selectedIndex, nextTestId) {
  const currentTestId = element.closest('.container').parentElement.id;
 
   if (selectedIndex === correctAnswers[currentTestId]) {
-    element.style.border = "2px solid green";
+    element.style.border = "2px solid rgb(112, 148, 112)";
+    element.style.background = "rgb(242, 252, 242)";
     score++;
   } else {
-    element.style.border = "2px solid red";
+    element.style.border = "2px solid rgb(206, 107, 107)";
+    element.style.background = "rgb(245, 232, 232)";
   }
 
   const options = document.querySelectorAll(`#${currentTestId} .option`);
@@ -292,7 +294,7 @@ function checkAnswer(element, selectedIndex, nextTestId) {
           </div>
         `;
       }
-    }, 500);
+    }, 2000);
   }
 }
 
