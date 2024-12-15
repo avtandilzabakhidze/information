@@ -294,7 +294,7 @@ function checkAnswer(element, selectedIndex, nextTestId) {
           </div>
         `;
       }
-    }, 2000);
+    }, 600);
   }
 }
 
