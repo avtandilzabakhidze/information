@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -11,11 +12,14 @@ html {
     overflow-y: scroll;
 }
 
-body p{
+body p {
     font-size: 20px !important;
 }
 
-body h1,h2,h3,h5{
+body h1,
+h2,
+h3,
+h5 {
     font-weight: bold !important;
 }
 
@@ -23,9 +27,9 @@ body h1,h2,h3,h5{
     cursor: pointer;
 }
 
-.Know img{
-  width: 110px !important;
-  height: 40px !important;
+.Know img {
+    width: 110px !important;
+    height: 40px !important;
 }
 
 #know-a {
@@ -41,6 +45,7 @@ body h1,h2,h3,h5{
     width: 20px;
     height: 20px;
 }
+
 .nav-item {
     padding: 0px 16px;
 }
@@ -93,7 +98,7 @@ body h1,h2,h3,h5{
     text-align: center;
 }
 
-.circle .circle-text{
+.circle .circle-text {
     font-size: 18px !important;
     padding-top: 5px;
 }
@@ -149,7 +154,7 @@ body h1,h2,h3,h5{
     background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
     color: white;
     text-align: left;
-  }
+}
 
 .card-img {
     border-radius: 0 !important;
@@ -203,7 +208,7 @@ footer {
     flex: 1;
 }
 
-footer p{
+footer p {
     font-size: 15px !important;
 }
 
@@ -299,7 +304,7 @@ footer p{
     gap: 2%;
 }
 
-#tests .option{
+#tests .option {
     width: 49%;
     border: 2px solid #ddd;
     padding: 10px;
@@ -330,7 +335,7 @@ footer p{
     max-height: 40px;
 }
 
-header a{
+header a {
     font-weight: 500 !important;
     font-size: 20px !important;
 }
@@ -339,12 +344,12 @@ header a{
     white-space: nowrap;
 }
 
-strong{
+strong {
     font-size: 36px;
 }
 
-#count-count{
-   padding-left: 10px;
+#count-count {
+    padding-left: 10px;
 }
 
 .QuizMainImg {
@@ -354,17 +359,15 @@ strong{
 
 }
 
-
-
 .QuizMainImg img {
-    max-height: 400px;
+    height: 400px;
     max-width: 700px;
     margin-top: 10px;
 }
 
 .QuizAnswerText {
     display: flex;
-    text-align: center; 
+    text-align: center;
     align-items: center;
 }
 
@@ -396,7 +399,7 @@ strong{
 
     .carousel-indicators {
         justify-content: center !important;
-        width: 100%!important;
+        width: 100% !important;
     }
 
     .carousel-indicators button {
@@ -432,6 +435,7 @@ strong{
     .text-back {
         display: block !important;
     }
+
     .card-1 img {
         height: 300px !important;
     }
@@ -439,6 +443,9 @@ strong{
     #cards img {
         min-height: 220px !important;
     }
+
+   .QuizMainImg img {
+    height: 247px;
 }
 
 @media (max-width: 1024px) {
@@ -484,7 +491,7 @@ strong{
         height: 154px;
     }
 
-    .card-img{
+    .card-img {
         height: 160px;
     }
 }
