@@ -167,6 +167,17 @@ const correctAnswers = {
   'test-test149': 1,
   'test-test150': 1,
 
+  'test-test151': 2,
+  'test-test152': 2,
+  'test-test153': 0,
+  'test-test154': 0,
+  'test-test155': 3,
+  'test-test156': 1,
+  'test-test157': 1,
+  'test-test158': 2,
+  'test-test159': 0,
+  'test-test160': 3,
+
   'test-test161': 3,
   'test-test162': 1,
   'test-test163': 0,
