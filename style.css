@@ -136,7 +136,7 @@ h5 {
 }
 
 #cards h5 {
-    color: #ffffff;
+    color: #720707;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
@@ -376,7 +376,29 @@ strong {
     font-size: 20px;
 }
 
+#sizing-nav{
+    margin: 20px 0;
+}
 
+#sizing-nav .active .page-link {
+    background-color: gray !important;
+    border-color: gray !important;
+    color: white !important;
+  }
+
+  #sizing-nav a{
+    color: #555 !important;
+  }
+  
+.page-link:focus,
+.page-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.page-item .page-link {
+    border-radius: 0 !important;
+  }
 
 @media (max-width: 768px) {
     .carousel-item {
