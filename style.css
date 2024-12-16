@@ -27,6 +27,11 @@ h5 {
     cursor: pointer;
 }
 
+#languageIcon {
+    width: 28px!important;
+    height: 28px!important;
+}
+
 .Know img {
     width: 100px !important;
     height: 40px !important;
