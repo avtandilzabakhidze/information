@@ -42,8 +42,8 @@ h5 {
 }
 
 #home-icon img {
-    width: 50px !important;
-    height: 50px !important;
+    width: 28px !important;
+    height: 28px !important;
 }
 
 #navbarBrand img {
@@ -218,6 +218,8 @@ footer {
 footer p {
     font-size: 15px !important;
 }
+
+
 
 #submit {
     background-color: rgb(90, 90, 90);
@@ -405,6 +407,7 @@ strong {
 .page-item .page-link {
     border-radius: 0 !important;
   }
+
 
 @media (max-width: 768px) {
     .carousel-item {
