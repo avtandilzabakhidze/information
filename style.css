@@ -80,6 +80,7 @@ h5 {
 .carousel-indicators {
     margin-left: 0 !important;
     justify-content: flex-start !important;
+    margin-bottom: 0!important;
 }
 
 .carousel-indicators button {
@@ -521,5 +522,10 @@ strong {
 
     .card-img {
         height: 160px;
+    }
+    .QuizMainImg img {
+        height: 350px;
+        max-width: fit-content;
+        margin-top: 10px;
     }
 }
