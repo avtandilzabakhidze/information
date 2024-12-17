@@ -289,12 +289,12 @@ function checkAnswer(element, selectedIndex, nextTestId) {
 
         nextTestElement.innerHTML = `
           <div class="container" style="text-align: center;">
-            <img class="container" src="${gifUrl}" style="max-width: 1000px; max-height: 700px; display: block; margin: 0 auto;">
+            <img class="container" id="Gif" src="${gifUrl}">
             <p class="container" style="text-align: center !important; padding: 20px 0; margin: 0 auto !important;">${resultMessage}</p>
           </div>
         `;
       }
-    }, 600);
+    }, 0);
   }
 }
 

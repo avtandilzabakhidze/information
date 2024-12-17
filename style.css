@@ -412,6 +412,16 @@ strong {
     border-radius: 0 !important;
   }
 
+#test-result{
+    margin-top: 20px;
+}
+
+#Gif{
+    width: 800px;
+    height: 500px; 
+    display: block; 
+    margin: 0 auto;
+}
 
 @media (max-width: 768px) {
     .carousel-item {
@@ -481,7 +491,12 @@ strong {
 
    .QuizMainImg img {
     height: 247px;
-}
+    }
+
+    #Gif{
+        width: 350px;
+        height: 247px; 
+    }
 }
 
 @media (max-width: 1024px) {
